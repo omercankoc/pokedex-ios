@@ -11,7 +11,7 @@ struct PokemonResults : Codable, Identifiable {
     let id = UUID()
     var name : String
     var url : String
-} */
+}
 
 class PokemonApi {
     func getPokemon(completion : @escaping ([PokemonResults]) -> ()){
@@ -27,3 +27,9 @@ class PokemonApi {
         }.resume()
     }
 }
+
+class PokemonApi {
+    func getPokemon(url : URL) async throws -> [PokemonModel] {
+        
+    }
+} */

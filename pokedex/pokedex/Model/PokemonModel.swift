@@ -1,10 +1,6 @@
 import Foundation
 
-struct Pokemon : Codable {
-    var results : [PokemonResults]
-}
-
-struct PokemonResults : Codable, Identifiable, Equatable {
+struct PokemonModel : Decodable, Identifiable, Hashable {
     let id = UUID()
     var name : String
     var url : String
