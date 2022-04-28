@@ -9,13 +9,9 @@ struct ContentView: View {
         NavigationView {
             List {
                 ForEach(search == "" ? pokemon : pokemon.filter ({
-                        $0.name.contains(search.lowercased())
-                    
-                })) {
-                        entry in
-                        NavigationLink("\(entry.name)".capitalized,
-                                       destination: Text("Detail view for \(entry.name)"))
-                    }
+                        $0.name.contains(search.lowercased())})) { entry in
+                        NavigationLink("\(entry.name)".capitalized,destination: Text("Detail view for \(entry.name)"))
+                        }
             }
             .onAppear {
                 PokeApi().getData() {
