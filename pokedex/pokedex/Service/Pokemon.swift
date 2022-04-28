@@ -2,18 +2,19 @@
 
 import Foundation
 
+/*
 struct Pokemon : Codable {
-    var results : [PokemonEntry]
+    var results : [PokemonResults]
 }
 
-struct PokemonEntry : Codable, Identifiable {
+struct PokemonResults : Codable, Identifiable {
     let id = UUID()
     var name : String
     var url : String
-}
+} */
 
-class PokeApi {
-    func getData(completion : @escaping ([PokemonEntry]) -> ()){
+class PokemonApi {
+    func getPokemon(completion : @escaping ([PokemonResults]) -> ()){
         guard let url = URL(string: "https://pokeapi.co/api/v2/pokemon?limit=100") else {
             return
         }

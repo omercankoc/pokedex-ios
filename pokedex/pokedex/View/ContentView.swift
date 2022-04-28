@@ -2,7 +2,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State var pokemon = [PokemonEntry]()
+    @State var pokemon = [PokemonResults]()
     @State var search = ""
     
     var body: some View {
@@ -14,7 +14,7 @@ struct ContentView: View {
                         }
             }
             .onAppear {
-                PokeApi().getData() {
+                PokemonApi().getPokemon() {
                     pokemon in self.pokemon = pokemon
                 }
             }
