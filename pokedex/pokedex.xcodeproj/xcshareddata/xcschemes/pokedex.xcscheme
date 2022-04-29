@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6A3058B7281A9DF900390D3E"
-               BuildableName = "pokedex.app"
+               BuildableName = "Pokedex.app"
                BlueprintName = "pokedex"
                ReferencedContainer = "container:pokedex.xcodeproj">
             </BuildableReference>
@@ -45,18 +45,11 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6A3058B7281A9DF900390D3E"
-            BuildableName = "pokedex.app"
+            BuildableName = "Pokedex.app"
             BlueprintName = "pokedex"
             ReferencedContainer = "container:pokedex.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <EnvironmentVariables>
-         <EnvironmentVariable
-            key = "OS_ACTIVITY_MODE"
-            value = "disable"
-            isEnabled = "YES">
-         </EnvironmentVariable>
-      </EnvironmentVariables>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -69,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6A3058B7281A9DF900390D3E"
-            BuildableName = "pokedex.app"
+            BuildableName = "Pokedex.app"
             BlueprintName = "pokedex"
             ReferencedContainer = "container:pokedex.xcodeproj">
          </BuildableReference>
