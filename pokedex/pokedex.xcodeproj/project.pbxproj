@@ -18,6 +18,7 @@
 		6A514FF5281C97D90065683E /* PokemonDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A514FF4281C97D90065683E /* PokemonDescriptionView.swift */; };
 		6A514FF7281C98090065683E /* PokemonList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A514FF6281C98090065683E /* PokemonList.swift */; };
 		6A514FFA281C984B0065683E /* CacheAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A514FF9281C984B0065683E /* CacheAsyncImage.swift */; };
+		6A514FFC281CAB8F0065683E /* PokemonDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A514FFB281CAB8F0065683E /* PokemonDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		6A514FF4281C97D90065683E /* PokemonDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDescriptionView.swift; sourceTree = "<group>"; };
 		6A514FF6281C98090065683E /* PokemonList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonList.swift; sourceTree = "<group>"; };
 		6A514FF9281C984B0065683E /* CacheAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheAsyncImage.swift; sourceTree = "<group>"; };
+		6A514FFB281CAB8F0065683E /* PokemonDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				6A514FF2281C97B80065683E /* PokemonCell.swift */,
 				6A514FF4281C97D90065683E /* PokemonDescriptionView.swift */,
 				6A514FF6281C98090065683E /* PokemonList.swift */,
+				6A514FFB281CAB8F0065683E /* PokemonDetail.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 			files = (
 				6A514FEF281C95FE0065683E /* ErrorView.swift in Sources */,
 				6A514FFA281C984B0065683E /* CacheAsyncImage.swift in Sources */,
+				6A514FFC281CAB8F0065683E /* PokemonDetail.swift in Sources */,
 				6A514FE9281C95590065683E /* PokemonData.swift in Sources */,
 				6A514FF1281C978A0065683E /* PokedexView.swift in Sources */,
 				6A514FEC281C95A90065683E /* PokemonLoader.swift in Sources */,

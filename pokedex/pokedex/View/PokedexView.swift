@@ -17,7 +17,6 @@ struct PokedexView: View {
                 await loader.load(restart: true)
             }
         }
-
     }
 }
 
