@@ -19,9 +19,6 @@ struct PokemonDescriptionView: View {
             Text("**\(pokemon.name.capitalized)**")
                 .font(.system(size: 24))
             Text(attributedText)
-            Button(action: { setID() }){
-                Text("See More")
-            }
         }
     }
     
